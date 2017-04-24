@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Roboto', serif;
+}
+
+header{
+	position: absolute;
+	background-color: #ccc;
+	display: fixed;
+	width: 100%;
+	height: 17%;
+}
+
+ul.menu>li{
+	list-style: none;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
