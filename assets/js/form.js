@@ -1,9 +1,78 @@
 window.onload = function(){
 
 	var element = document.querySelector(".form");
-		element.addEventListener("submit", function(event) {	
-			event.preventDefault();
-		});
+		element.addEventListener("submit", function(event) {
+
+		event.preventDefault();	
+
+		function alerta(message){
+			var p = document.createElement("p");
+				p.setAttribute("id", "alert-message");
+				p.innerText = message
+
+			var div = document.getElementById("message");
+				div.appendChild(p);
+		}
+
+		function display(){
+			var formContainer = document.getElementById("form-container");
+				formContainer.style.opacity = "0.5"
+		}
+
+	var nombreGato = document.getElementById("catname").value.length;
+	var nombre = document.getElementById("name").value.length;
+	var apellido = document.getElementById("lastname").value.length;
+	var edad = document.getElementById("age").value;
+	var dni = document.getElementById("dni").value.length;
+	var telefono = document.getElementById("phone").value.length;
+	var direccion = document.getElementById("address").value.length;
+
+	if((nombreGato == 0 || nombre == 0) || (apellido == 0 || edad.length == 0) || (dni == 0 || telefono == 0) || direccion == 0){
+		alerta("Debe llenar todos los campos para continuar.");
+	}else{
+
+		if(edad > 17){
+			alerta("Registro exitoso. Serás redirigido a la página de inicio.");
+			display();
+		}else{
+		}
+
+		if(edad < 17){
+			alerta("Lo sentimos, necesitas ser mayor de edad para acceder al registro.");
+		}else{
+		}
+	}
+
+
+		/*
+
+		var allInputs = document.getElementsByClassName("input-form");
+
+		for(var i = 0; i < allInputs.length; i++){
+			if(allInputs[i].value.length > 0){
+
+				if(mayorDeEdad > 17){
+					alerta("Registro exitoso. Serás redirigido a la página de inicio.")
+					display();
+					//setTimeout(function(){location.href = "index.html"}, 3500);
+					break;
+				}else{
+					alerta("Lo sentimos, necesitas ser mayor de edad para acceder al registro.")
+					//setTimeout(function(){location.href = "index.html"}, 3500);
+					display();
+					break;
+				}
+
+
+			}else{
+				alerta("Debe llenar todos los campos para continuar");
+				break;
+			}
+		}
+
+		*/
+
+	});
 
 	var nombreGato = document.getElementById("catname");
 	var nombre = document.getElementById("name");
@@ -43,7 +112,7 @@ window.onload = function(){
 			this.nextElementSibling.style.display = "none"
 			return true;
 		}else{
-			this.nextElementSibling.innerText = "Este campo sólo permite números"
+			this.nextElementSibling.innerText = "Este campo sólo permite edades"
 			this.nextElementSibling.style.display = "inline-block"
 			return false;
 		}
@@ -64,7 +133,7 @@ window.onload = function(){
 			this.nextElementSibling.style.display = "none"
 			return true;
 		}else{
-			this.nextElementSibling.innerText = "Este campo sólo permite números de ocho dígitos"
+			this.nextElementSibling.innerText = "Este campo sólo permite N° DNI"
 			this.nextElementSibling.style.display = "inline-block"
 			return false;
 		}
@@ -85,7 +154,7 @@ window.onload = function(){
 			this.nextElementSibling.style.display = "none"
 			return true;
 		}else{
-			this.nextElementSibling.innerText = "Este campo sólo permite números"
+			this.nextElementSibling.innerText = "Ingrese un número válido"
 			this.nextElementSibling.style.display = "inline-block"
 			return false;
 		}
@@ -123,7 +192,7 @@ window.onload = function(){
 
 }
 
-	
+
 
 /*
 		var regLetras = /^[a-zA-Z]*$/;
