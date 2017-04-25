@@ -5,19 +5,10 @@ window.onload = function(){
 
 		event.preventDefault();	
 
-		function alerta(message){
-			var p = document.createElement("p");
-				p.setAttribute("id", "alert-message");
-				p.innerText = message
-
-			var div = document.getElementById("message");
-				div.appendChild(p);
-		}
-
-		function display(){
-			var formContainer = document.getElementById("form-container");
-				formContainer.style.opacity = "0.5"
-		}
+	function opacity(){
+		var formContainer = document.getElementById("form-container");
+			formContainer.style.opacity = "0.5"
+	}
 
 	var nombreGato = document.getElementById("catname").value.length;
 	var nombre = document.getElementById("name").value.length;
@@ -26,20 +17,23 @@ window.onload = function(){
 	var dni = document.getElementById("dni").value.length;
 	var telefono = document.getElementById("phone").value.length;
 	var direccion = document.getElementById("address").value.length;
+	var spanAlert = document.getElementById("alert-message");
 
 	if((nombreGato == 0 || nombre == 0) || (apellido == 0 || edad.length == 0) || (dni == 0 || telefono == 0) || direccion == 0){
-		alerta("Debe llenar todos los campos para continuar.");
+		spanAlert.innerText = "Debe llenar todos los campos para continuar.";
+		spanAlert.style.display = "inline-block"
 	}else{
 
-		if(edad > 17){
-			alerta("Registro exitoso. Serás redirigido a la página de inicio.");
-			display();
-		}else{
-		}
+		spanAlert.style.display = "none"
 
-		if(edad < 17){
-			alerta("Lo sentimos, necesitas ser mayor de edad para acceder al registro.");
+		if(edad > 17){
+			spanAlert.style.display = "inline-block"
+			spanAlert.innerText = "Registro exitoso. Serás redirigido a la página de inicio.";
+			opacity();
 		}else{
+			spanAlert.style.display = "inline-block"
+			spanAlert.innerText = "Necesitas ser mayor de edad para acceder al registro";
+			opacity();
 		}
 	}
 
