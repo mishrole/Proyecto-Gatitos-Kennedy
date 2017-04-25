@@ -23,3 +23,65 @@ ul.menu>li{
 a{
 	text-decoration: none;
 }
+
+
+/* -- Gallery --*/
+
+#container-gallery{
+	text-align: center;
+	width: 100%;
+	position: relative;
+	top: 100px;
+}
+
+#gallery{
+	display: inline-block;
+}
+
+.cats{
+	display: inline-block;
+	margin: 0;
+	left: 0;
+	width: 350px;
+	height: auto;
+	padding: 10px;
+}
+
+#gallery div{
+	position: relative;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	justify-content: center;
+	margin: 20px;
+}
+
+img{
+	border-radius: 50%;
+}
+
+img:hover{
+	opacity: 0.3;
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: 2s;
+}
+
+.adopt-me{
+	padding: 5px;
+	width: 250px;
+	position: relative;
+	bottom: 225px;
+	z-index: -1;
+	font-size: 30px;
+}
+
+.adopt-me:hover, .adopt-me:link, .adopt-me:visited{
+	cursor: pointer;
+	color: black;
+}
+
+.adopt-me:hover{
+	z-index: 1;
+}
+
