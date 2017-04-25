@@ -53,7 +53,47 @@
 <!-- mitchel is for you -->
 	</div>
 	<div id="contacto">
-
+		<section class="form">
+		      <div class="container">
+		        <form class="signup" novalidate>
+		          <h2 id="contactanos">
+		            Contáctanos
+		          </h2>
+		          <div class="name-container input-box">
+		            <label for="name" class="sr-only">Nombre</label>
+		            <input type="text" id="name" class="form-control"
+		            placeholder="Ingrese su nombre">
+		            <span id="nombre"style="display:none"></span>
+		          </div>
+		          <div class="lastname-container input-box">
+		            <label for="lastname" class="sr-only">Apellido</label>
+		            <input type="text" id="lastname" class="form-control"
+		            placeholder="Ingrese su apellido">
+		            <span id="apellido"style="display:none"></span>
+		          </div>
+		          <div class="email-container input-box">
+		            <label for="inputEmail" class="sr-only">
+		              Correo Electrónico
+		            </label>
+		            <input type="email" id="fake" class="form-control form-email" placeholder="Ingrese su correo electrónico">
+		            <span id="email" style="display:none"></span>
+		          </div>
+							<div class="commits-container input-box">
+								<label for="commits" class="sr-only">Mensaje</label><br>
+								<textarea id="commits" class="form-mesage form-control" name="name" rows="8" cols="80" placeholder="Dejanos tu mensaje"></textarea>
+								<span id="mensaje" style="display:none"></span>
+							</div>
+		          <div class="checkbox input-box">
+		            <label>
+		              <input id="checkout" type="checkbox" value="remember-me">
+		              <span>Deseo recibir información vía email</span>
+		            </label>
+		          </div>
+		          <button class="btn btn-lg btn-primary btn-block submit-btn"id="boton" type="submit">Registrar</button>
+		        </form>
+						</div>
+		    </section>
+				<img class=img-contact src="assets/img/contacto.jpg" alt="">
 	</div>
 </body>
 </html>
