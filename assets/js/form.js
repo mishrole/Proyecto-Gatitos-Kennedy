@@ -21,17 +21,17 @@ window.onload = function(){
 
 	if((nombreGato == 0 || nombre == 0) || (apellido == 0 || edad.length == 0) || (dni == 0 || telefono == 0) || direccion == 0){
 		spanAlert.innerText = "Debe llenar todos los campos para continuar.";
-		spanAlert.style.display = "inline-block"
+		spanAlert.style.display = "block"
 	}else{
 
 		spanAlert.style.display = "none"
 
 		if(edad > 17){
-			spanAlert.style.display = "inline-block"
+			spanAlert.style.display = "block"
 			spanAlert.innerText = "Registro exitoso. Serás redirigido a la página de inicio.";
 			opacity();
 		}else{
-			spanAlert.style.display = "inline-block"
+			spanAlert.style.display = "block"
 			spanAlert.innerText = "Necesitas ser mayor de edad para acceder al registro";
 			opacity();
 		}
