@@ -56,11 +56,11 @@ a{
 	margin: 20px;
 }
 
-img{
+img.cats{
 	border-radius: 50%;
 }
 
-img:hover{
+img.cats:hover{
 	opacity: 0.3;
 	transform: scale(1.1);
 	cursor: pointer;
@@ -84,4 +84,3 @@ img:hover{
 .adopt-me:hover{
 	z-index: 1;
 }
-
