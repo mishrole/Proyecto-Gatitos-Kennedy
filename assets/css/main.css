@@ -67,14 +67,14 @@ ul.menu>li{
 }
 .fondo{
 	width: 100%;
-	height: 586px;
+	height: 662px;
   background-repeat: no-repeat;
 	}
 .mensaje{
 	display: inline-block;
 	position: relative;
 	text-align: justify;
-	bottom: 7em;
+	bottom: 26em;
 	left: 28px;
 	font-weight: 900
 }
@@ -84,8 +84,8 @@ ul.menu>li{
   color: white;
   position: relative;
   text-align: justify;
-  bottom: 7em;
-  left: 28px;
+	bottom: 13px;
+  left: 5px;
   font-weight: 900;
 }
 
@@ -123,5 +123,33 @@ button{
 }
 #nosotros{
 	width: 100%;
-	height: 36.7em
+  background-image:url(../img/gatitoFondo.jpg);
+	opacity: 3;
+  position: relative;
+  display: inline-block;
+  height: 662px;
+  bottom: 259px;
+}
+
+#nosotros #texto{
+	position: relative;
+  display: inline-block;
+  top: 106px;
+  padding: 62px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  color: #941e80;
+	background-color: #ffffff;
+	opacity: 0.9;
+}
+#texto h3 {
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+#texto p {
+	text-align: justify;
+	padding: 5px;
+	margin: 30px;
 }
