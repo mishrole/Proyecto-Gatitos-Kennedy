@@ -10,6 +10,7 @@ header{
 	display: fixed;
 	width: 100%;
 	height: 14%;
+	z-index: 1;
 }
 
 nav{
@@ -50,16 +51,70 @@ ul.menu>li{
 	position: relative;
 	display: inline-block;
 	text-align: center;
-	bottom: 48px;
-	left: 165px;
+	bottom: 2.9em;
+  left: 9.9em;
 }
 .titulo #nombre{
 	font-family: 'Exo 2', sans-serif;
   color: white;
+	font-weight: bold;
   text-decoration: none;
   font-size: 37px;
   position: relative;
   display: inline-block;
   bottom: 7px;
   right: 41px;
+}
+#fondo{
+	width: 100%;
+	height: 41.7em;
+  background-repeat: no-repeat;
+	filter: saturate(3);
+	}
+.mensaje{
+	display: inline-block;
+	position: relative;
+}
+.mensaje p{
+	font-family: 'Lobster Two', cursive;
+	font-size: 46px;
+  color: white;
+  position: relative;
+  text-align: justify;
+  bottom: 10em;
+  left: 63px;
+	font-weight: 900;
+}
+
+button:hover{
+	display: inline-block;
+	position: relative;
+	margin: 0px 27px;
+	height: 39px;
+	width: 200px;
+	border-radius: 8%;
+	background-color: #ffc400;
+	border-bottom-color: black;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 20px;}
+
+button{
+	display: inline-block;
+	position: relative;
+	margin: 0px 27px;
+	height: 39px;
+	width: 200px;
+	border-radius: 8%;
+	background-color: #941e80;
+	border-bottom-color: black;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+.botones{
+	bottom: 265px;
+	position: relative;
 }
