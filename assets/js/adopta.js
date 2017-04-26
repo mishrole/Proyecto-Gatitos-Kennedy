@@ -23,6 +23,7 @@ function insert(element){
 
 	var textImg = document.createElement("figcaption");
 	var span = document.createElement("span");
+		span.setAttribute("class", "span-catname");
 		span.innerText = text[indice]
 
 		textImg.appendChild(span);

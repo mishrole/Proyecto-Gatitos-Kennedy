@@ -39,36 +39,7 @@ window.onload = function(){
 		}
 	}
 
-
-		/*
-
-		var allInputs = document.getElementsByClassName("input-form");
-
-		for(var i = 0; i < allInputs.length; i++){
-			if(allInputs[i].value.length > 0){
-
-				if(mayorDeEdad > 17){
-					alerta("Registro exitoso. Serás redirigido a la página de inicio.")
-					display();
-					//setTimeout(function(){location.href = "index.html"}, 3500);
-					break;
-				}else{
-					alerta("Lo sentimos, necesitas ser mayor de edad para acceder al registro.")
-					//setTimeout(function(){location.href = "index.html"}, 3500);
-					display();
-					break;
-				}
-
-
-			}else{
-				alerta("Debe llenar todos los campos para continuar");
-				break;
-			}
-		}
-
-		*/
-
-	});
+});
 
 	var nombreGato = document.getElementById("catname");
 	var nombre = document.getElementById("name");
@@ -186,70 +157,6 @@ window.onload = function(){
 		inputs[i].onblur = validate;
 	}
 
-}
+};
 
-
-
-/*
-		var regLetras = /^[a-zA-Z]*$/;
-		var regMayus = /^[A-Z]{1}/;
-
-		function show(id){
-			id.nextElementSibling.style.display = "inline-block"
-		}
-
-		function hide(id){
-			id.nextElementSibling.style.display = "none"
-		}
-
-		function text(id, message){
-			id.nextElementSibling.innerText = message
-		}
-
-		if(nombreGato.value.length == 0){
-			show(nombreGato)
-			text(nombreGato, "ingrese un nombre")
-		}else{
-			if(nombreGato.value.search(regMayus)){
-				show(nombreGato)
-				text(nombreGato, "La primera letra debe estar en mayúscula")
-			}else if(nombreGato.value.search(regLetras)){
-				show(nombreGato)
-				text(nombreGato, "Verifique el nombre")
-			}else{
-				hide(nombreGato)
-			}
-		}
-
-		if(nombre.value.length == 0){
-			show(nombre)
-			text(nombre, "ingrese su nombre")
-		}else{
-			if(nombre.value.search(regMayus)){
-				show(nombre)
-				text(nombre, "La primera letra debe estar en mayúscula")
-			}else if(nombre.value.search(regLetras)){
-				show(nombre)
-				text(nombre, "Verifique su nombre")
-			}else{
-				hide(nombre)
-			}
-		}
-
-		if(apellido.value.length == 0){
-			show(apellido)
-			text(apellido, "ingrese su apellido")
-		}else{
-			if(apellido.value.search(regMayus)){
-				show(apellido)
-				text(apellido, "La primera letra debe estar en mayúscula")
-			}else if(apellido.value.search(regLetras)){
-				show(apellido)
-				text(apellido, "Verifique su apellido")
-			}else{
-				hide(apellido)
-			}
-		}
-
-*/
 

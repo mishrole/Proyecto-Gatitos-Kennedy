@@ -4,24 +4,29 @@
 	<meta charset="UTF-8">
 	<title>Gatitos Kennedy</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2|Lobster+Two|Quicksand|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="assets/img/style.css">
 </head>
 <body>
 	
-	<header>
+	<header id="cabecera">
 
 		<div class="header-logo">
-			<a href="" class="mark-github"></a>
+			<a href="" class="icon-github logo"></a>
+		</div>
+		
+		<div class="titulo">
+			<a id="nombre" href="">Meow!</a>
 		</div>
 
 		<nav>
 
 			<div class="nav-bar">
 				<ul class="menu">
-					<li><a href="">Inicio</a></li>
-					<li><a href="">¿Quiénes somos?</a></li>
-					<li><a href="">Galería</a></li>
-					<li><a href="">Contacto</a></li>
+					<li><a class="barra" href="#image">Inicio</a></li>
+					<li><a class="barra" href="#nosotros">¿Quiénes somos?</a></li>
+					<li><a class="barra" href="#gallery">Galería</a></li>
+					<li><a class="barra" href="#contacto">Contacto</a></li>
 				</ul>
 			</div>
 
@@ -29,13 +34,106 @@
 
 	</header>
 
+	<div id="image">
+		<img class="fondo" src="assets/img/gatitos.jpg" alt="gatos meow! adoptame">
+		<img class="fondo" src="assets/img/gatitos1.jpg" alt="gatos meow! adoptame">
+		<img class="fondo" src="assets/img/gatitos2.jpg" alt="gatos meow! adoptame">
+		<img class="fondo" src="assets/img/gatitos3.jpg" alt="gatos meow! adoptame">
+	</div>
+
+	<div class=mensaje>
+		<p>No puedes comprar <br>Amor<br>pero sí adoptarlo...</p>
+	</div>
+
+	<div class="botones">
+		<button id="boton-adopta" class="boton" type="button" name="button">Adóptame</button>
+		<button id="boton-dona" class="boton" type="button" name="button">Dona</button>
+	</div>
+
+	<div id="nosotros">
+	    <div id="texto">
+
+			<h3>NOSOTROS</h3>
+
+			<div class="box uno">
+				<span class="icon-aid-kit"></span>
+				<h2>Atencion Médica</h2>
+				<p>Ofrecemos cuidado veterinario, consultas externas, cirugía y administración de medicación.</p>
+			</div>
+
+			<div class="box dos">
+				<span class="icon-heart"></span>
+				<h2>Amor Gatuno</h2>
+				<p>Realizamos campañas permanentes de adopciones de gatos.</p>
+			</div>
+
+			<div class="box tres">
+				<span class="icon-food"></span>
+				<h2>Ñam Ñam!</h2>
+				<p>Brindamos alimentación a los gatos con 20 kilos diarios de comida balanceada. </p>
+			</div>
+
+	    </div>
+	</div>
+
 	<section id="container-gallery">
 
 		<div id="gallery">
+
+		<h3 id="texto-gallery">GALERÍA</h3>
 			
 		</div>
 		
 	</section>
+
+	<div id="contacto">
+		<section class="form">
+			
+			<div class="container">
+				<form class="signup">
+
+					<h2 id="contactanos">Contáctanos</h2>
+
+					<div class="name-container input-box">
+						<label for="name" class="sr-only">Nombre</label>
+						<input type="text" id="name" class="form-control"
+						placeholder="Ingrese su nombre">
+						<span id="nombre"style="display:none"></span>
+					</div>
+
+					<div class="lastname-container input-box">
+						<label for="lastname" class="sr-only">Apellido</label>
+						<input type="text" id="lastname" class="form-control"
+						placeholder="Ingrese su apellido">
+						<span id="apellido"style="display:none"></span>
+					</div>
+
+					<div class="email-container input-box">
+						<label for="inputEmail" class="sr-only">Correo Electrónico</label>
+						<input type="email" id="fake" class="form-control form-email" placeholder="Ingrese su correo electrónico">
+						<span id="email" style="display:none"></span>
+					</div>
+
+					<div class="commits-container input-box">
+						<label for="commits" class="sr-only">Mensaje</label><br>
+						<textarea id="commits" class="form-mesage form-control" name="name" rows="8" cols="80" placeholder="Dejanos tu mensaje"></textarea>
+						<span id="mensaje" style="display:none"></span>
+					</div>
+
+					<div class="checkbox input-box">
+						<label>
+						<input id="checkout" type="checkbox" value="remember-me">
+						<span>Deseo recibir información vía email</span>
+						</label>
+					</div>
+
+					<button class="btn btn-lg btn-primary btn-block submit-btn"id="boton" type="submit">Registrar</button>
+				</form>
+			</div>
+		</section>
+
+		<img class=img-contact src="assets/img/contacto.jpg" alt="">
+	</div>
 	
 	<script type="text/javascript" src="assets/js/main.js"></script>
 	<script type="text/javascript" src="assets/js/adopta.js"></script>
