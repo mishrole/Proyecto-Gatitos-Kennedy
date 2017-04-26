@@ -27,13 +27,15 @@ window.onload = function(){
 		spanAlert.style.display = "none"
 
 		if(edad > 17){
-			spanAlert.style.display = "block"
-			spanAlert.innerText = "Registro exitoso. Serás redirigido a la página de inicio.";
 			opacity();
+			spanAlert.style.display = "block"
+			spanAlert.innerText = "Registro exitoso. \n Serás redirigido a la página de inicio.";
+			setTimeout(function(){location.href = "index.html"}, 3500);
 		}else{
-			spanAlert.style.display = "block"
-			spanAlert.innerText = "Necesitas ser mayor de edad para acceder al registro";
 			opacity();
+			spanAlert.style.display = "block"
+			spanAlert.innerText = "Lo sentimos, necesitas ser mayor de edad para acceder a nuestro registro de pre-adopción. \n Serás redirigido a la página de inicio.";
+			setTimeout(function(){location.href = "index.html"}, 5500);
 		}
 	}
 

@@ -58,6 +58,7 @@ a{
 
 img.cats{
 	border-radius: 50%;
+	transition: 2.5s;
 }
 
 img.cats:hover{

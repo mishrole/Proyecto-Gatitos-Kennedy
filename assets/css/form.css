@@ -67,13 +67,15 @@ form{
 }
 
 span#alert-message{
-	font-size: 18px;
+	font-size: 19px;
 	z-index: 1;
 	position: absolute;
-	right: 90px;
-	top: 10px;
+	right: 75px;
+	top: 50px;
 	display: none;
 	border: 1px solid white;
-	padding: 70px 60px;
+	padding: 10px;
 	color: white;
+	text-align: center;
+	width: 500px;
 }
