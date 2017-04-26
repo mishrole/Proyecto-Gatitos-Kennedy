@@ -58,6 +58,7 @@ var letras = function(e){
 }
 correo.onblur=vEmail*/
 
+
 var validar = function(){
 		if(this.value.trim().length == 0){
 			this.value = "";

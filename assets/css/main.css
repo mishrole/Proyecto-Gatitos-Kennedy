@@ -116,6 +116,7 @@ button{
 	font-weight: bold;
 	color: white;
 	font-size: 20px;
+	bottom: 39px;
 }
 .botones{
 	bottom: 355px;
@@ -123,12 +124,13 @@ button{
 }
 #nosotros{
 	width: 100%;
-  background-image:url(../img/gatitoFondo.jpg);
-	opacity: 3;
+  /*background-image:url(../img/gatitoFondo.jpg);
+	opacity: 3;*/
   position: relative;
   display: inline-block;
   height: 662px;
-  bottom: 259px;
+  bottom: 315px;
+	text-align: center;
 }
 
 #nosotros #texto{
@@ -139,29 +141,32 @@ button{
   font-family: 'Quicksand', sans-serif;
   font-size: 34px;
   font-weight: bold;
-  color: #941e80;
+  /*color: #941e80;
 	background-color: #ffffff;
-	opacity: 0.9;
+	opacity: 0.9;*/
 }
 #texto h3 {
 	font-family: 'Exo 2', sans-serif;
 	text-align: center;
-	padding: 5px;
+	padding-bottom: 40px;
+	margin-top: -66px;
+	color: #941e80
 }
 #texto p {
-	text-align: justify;
-	padding: 5px;
-	margin: 30px;
+	text-align: center;
+  padding: 5px;
+  margin: 30px;
+  font-size: 18px;
 }
-#contacto .form .container{
-
-}
+.form {
+	position: relative;
+	}
 
 form{
 	display: inline-block;
   position: relative;
   left: 25px;
-  height: 546px;
+  height: 505px;
   width: 543px;
   padding-top: 24px;
   background-color:white;
@@ -220,12 +225,13 @@ margin: 21px;
 }
 
 .commits-container #mensaje{
-	left: 149px;
-	bottom: 74px;
+	left: 475px;
+  bottom: 98px;
 	 }
 
 .email-container #email{
-	left: 10px;
+	left: 356px;
+  bottom: 23px;
 }
 #checkout{
 	display: inline-block;
@@ -267,10 +273,62 @@ margin: 21px;
 		left: 116px;
 }
 .img-contact{
-	
-position: relative;
-display: inline-block;
-width: 20%;
-height: 20%;
+	position: absolute;
+  display: inline-block;
+  width: 850px;
+  top: 12px;
+  left: 782px;
+  height: 535px;
 }
+#contacto{
+	position: relative;
+}
+.box{
+	width: 305px;
+  height: 305px;
+  border-radius: 50%;
+  box-shadow: 8px 10px 14px -8px #CECECE;
+  float: left;
+  text-align: center;
+  background-color: #F4F1F1;
+  padding-top: 30px;
+  margin: 22px;
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  transition: all 1s ease;
+}
+
+h2{
+  color: #777777;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+h2:hover{
+  color: #941e80;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.box:hover{
+  padding-top: 20px;
+  background-color: #fff;
+  -webkit-transform:scale(1.1);
+  color: black;
+  -webkit-transition: all .0.5s ease-in-out;
+
+}
+p{
+  text-align: center;
+  margin: 28px;
+  font-size: 15px;
+  padding top: 0px:
+
+}
+div>span{
+	color: #941e80;
+  font-size: 38px;
+  bottom: 9px;
+  position: relative;
+  display: inline-block;
 }
