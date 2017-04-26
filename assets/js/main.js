@@ -41,19 +41,6 @@
   nombre.onkeypress=letras;
   apellido.onkeypress=letras;
 
-  var correo=document.getElementById("fake");
-  var vEmail=function() {
-    console.log(this.value);
-    if(emailRegex.test(this.value)==true){
-      this.nextElementSibling.innerText = "";
-      this.nextElementSibling.style.display = "none";
-    }else {
-      this.nextElementSibling.innerText = "Ingrese E-mail correcto";
-      this.nextElementSibling.style.display = "inline-block";
-    }
-  }
-  correo.addEventListener("blur", vEmail);
-
   var validar = function(){
     if(this.value.trim().length == 0){
       this.value = "";
