@@ -1,0 +1,81 @@
+/* -- Form --*/
+
+*{
+	font-family: 'Prompt', serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(../img/fondo-form2.jpg);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position-x: 100%;
+}
+
+h2{
+	font-family: 'Roboto', serif;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.1;
+	color: #333;
+	margin-bottom: 40px;
+	margin-top: 15px;
+}
+
+form{
+	display: inline-block;
+	padding: 15px 100px;
+}
+
+.form-container{
+	text-align: center;
+	width: 50%;
+	padding-top: 25px;
+}
+
+.content-form{
+	padding: 8px;
+	margin: 8px;
+}
+
+.input-form{
+	width: 225px;
+	padding: 5px;
+}
+
+#button{
+	margin-top: 10px;
+	width: 240px;
+	height: 30px;
+	background: #333;
+	border: none;
+	color: #fff;
+	font-size: 17px;
+}
+
+.span-text{
+	display: none;
+	position: absolute;
+	padding: 5px;
+	border: 1px solid #333;
+	color: white;
+	margin-left: 15px;
+	background-color: #333;
+	font-size: 13px;
+}
+
+span#alert-message{
+	font-size: 19px;
+	z-index: 1;
+	position: absolute;
+	right: 75px;
+	top: 50px;
+	display: none;
+	border: 1px solid white;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	width: 500px;
+}

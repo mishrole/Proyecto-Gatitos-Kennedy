@@ -43,10 +43,18 @@ ul.menu>li{
 	position: relative;
 	font-size: 74px;
 	color: white;
+<<<<<<< HEAD
 	display:inline-block;
 	left: 34px;
 	top: 5px;
 }
+=======
+	display: inline-block;
+	left: 34px;
+	top: 5px;
+}
+
+>>>>>>> 375a929bdc94c498fa45f3572b59b9832bc6b061
 .titulo{
 	position: relative;
 	display: inline-block;
@@ -54,6 +62,10 @@ ul.menu>li{
 	bottom: 2.9em;
   left: 9.9em;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 375a929bdc94c498fa45f3572b59b9832bc6b061
 .titulo #nombre{
 	font-family: 'Exo 2', sans-serif;
   color: white;
@@ -65,11 +77,19 @@ ul.menu>li{
   bottom: 7px;
   right: 41px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 375a929bdc94c498fa45f3572b59b9832bc6b061
 .fondo{
 	width: 100%;
 	height: 662px;
   background-repeat: no-repeat;
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 375a929bdc94c498fa45f3572b59b9832bc6b061
 .mensaje{
 	display: inline-block;
 	position: relative;
@@ -78,6 +98,10 @@ ul.menu>li{
 	left: 28px;
 	font-weight: 900
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 375a929bdc94c498fa45f3572b59b9832bc6b061
 .mensaje p{
 	font-family: 'Lobster Two', cursive;
   font-size: 56px;
@@ -97,7 +121,11 @@ button:hover{
 	width: 200px;
 	border-radius: 60px;
 	background-color: #ffc400;
+<<<<<<< HEAD
 	border-bottom-color: black;
+=======
+
+>>>>>>> 375a929bdc94c498fa45f3572b59b9832bc6b061
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
 	color: black;
@@ -111,7 +139,10 @@ button{
 	width: 200px;
 	border-radius: 60px;
 	background-color: #941e80;
+<<<<<<< HEAD
 	border-bottom-color: black;
+=======
+>>>>>>> 375a929bdc94c498fa45f3572b59b9832bc6b061
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
 	color: white;
@@ -124,6 +155,7 @@ button{
 }
 #nosotros{
 	width: 100%;
+<<<<<<< HEAD
   /*background-image:url(../img/gatitoFondo.jpg);
 	opacity: 3;*/
   position: relative;
@@ -131,10 +163,18 @@ button{
   height: 662px;
   bottom: 315px;
 	text-align: center;
+=======
+	position: relative;
+	display: inline-block;
+	bottom: 350px;
+	text-align: center;
+	max-height: 285px;
+>>>>>>> 375a929bdc94c498fa45f3572b59b9832bc6b061
 }
 
 #nosotros #texto{
 	position: relative;
+<<<<<<< HEAD
   display: inline-block;
   top: 106px;
   padding: 62px;
@@ -146,11 +186,231 @@ button{
 	opacity: 0.9;*/
 }
 #texto h3 {
+=======
+	display: inline-block;
+	top: 106px;
+	padding: 120px 62px 0 62px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 34px;
+	font-weight: bold;
+}
+#texto h3{
+>>>>>>> 375a929bdc94c498fa45f3572b59b9832bc6b061
 	font-family: 'Exo 2', sans-serif;
 	text-align: center;
 	padding-bottom: 40px;
 	margin-top: -66px;
 	color: #941e80
+<<<<<<< HEAD
+=======
+}
+
+#texto-gallery{
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	color: #941e80;
+	font-size: 38px;
+	font-weight: bold;
+	padding: 125px 60px 30px;
+}
+
+#texto p {
+	text-align: center;
+	padding: 5px;
+	margin: 30px;
+	font-size: 18px;
+}
+
+.form {
+	position: relative;
+}
+
+form{
+	display: inline-block;
+	position: relative;
+	left: 25px;
+	height: 505px;
+	width: 543px;
+	background-color:white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+textarea{
+	display: inline-block;
+	position: relative;
+	left: 25px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#contactanos{
+	left: 12px;
+	color: #941e80;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 32px;
+	position: relative;
+	display: inline-block;
+	bottom: 15px;
+}
+
+.sr-only{
+	font-weight: bold;
+}
+
+.input-box{
+	position: relative;
+	margin: 14px;
+}
+
+.input-box span{
+	position: relative;
+	left: 86px;
+}
+
+.form-control{
+	position: relative;
+	left: 86px;
+	height: 27px;
+	width: 191px;
+	border-radius: 8px;
+	border: solid 1px #941e80;
+	padding-left: 9px;
+}
+
+.input-box .form-email{
+	position: relative ;
+	height: 27px;
+	width: 191px;
+	left: 11px;
+}
+
+.input-box .form-mesage{
+	position: relative;
+	height: 132px;
+	width: 312px;
+	left: 149px;
+	bottom: 18px;
+	max-width:312px;
+	max-height:132px;
+}
+
+.commits-container #mensaje{
+	left: 475px;
+	bottom: 98px;
+}
+
+.email-container #email{
+	left: 356px;
+	bottom: 23px;
+}
+
+#checkout{
+	display: inline-block;
+    left: 59px;
+    top: 2px;
+    position: relative;
+}
+
+.commits-container label{
+	bottom: -12px;
+}
+
+.signup{
+	bottom: -37px;
+}
+
+#boton:hover {
+	display: inline-block;
+	position: relative;
+	height: 49px;
+	width: 200px;
+	background-color: #ffc400;
+	font-family: Quicksand, sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	left: 202px;
+	top: 24px;
+	margin: 0px 27px;
+	border-radius: 60px;
+}
+
+#boton {
+	display: inline-block;
+	position: relative;
+	height: 49px;
+	width: 200px;
+	background-color: rgb(148, 30, 128);
+	font-family: Quicksand, sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	left: 202px;
+	top: 24px;
+	margin: 0px 27px;
+	border-radius: 60px;
+}
+
+.img-contact{
+	position: absolute;
+	display: inline-block;
+	top: -26px;
+	left: 782px;
+	height: 568px;
+	width: 567px;
+}
+
+#contacto{
+	position: relative;
+}
+
+.box{
+	width: 305px;
+	height: 305px;
+	border-radius: 50%;
+	float: left;
+	text-align: center;
+	padding-top: 50px;
+	margin: 22px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	transition: all 1s ease;
+}
+
+h2{
+	color: #777777;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+h2:hover{
+	color: #941e80;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.box:hover{
+  padding-top: 20px;
+  background-color: #fff;
+  -webkit-transform:scale(1.1);
+  color: black;
+  -webkit-transition: all .0.5s ease-in-out;
+}
+
+p{
+  text-align: center;
+  margin: 28px;
+  font-size: 15px;
+  padding top: 0px:
+}
+
+div>span{
+	color: #941e80;
+	font-size: 38px;
+	bottom: 9px;
+	position: relative;
+	display: inline-block;
+>>>>>>> 375a929bdc94c498fa45f3572b59b9832bc6b061
 }
 #texto p {
 	text-align: center;
@@ -389,4 +649,139 @@ footer{
   width: 1293px;
   padding: 28px;
   background-color:#941e80;
+}
+
+
+/* -- Gallery --*/
+
+#container-gallery{
+	text-align: center;
+	width: 100%;
+	position: relative;
+}
+
+#gallery{
+	display: inline-block;
+	top: 50px;
+}
+
+.cats{
+	display: inline-block;
+	margin: 0;
+	left: 0;
+	width: 350px;
+	height: auto;
+	padding: 10px;
+}
+
+#gallery div{
+	position: relative;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	justify-content: center;
+	margin: 20px;
+}
+
+img.cats{
+	border-radius: 50%;
+	transition: 2.5s;
+}
+
+img.cats:hover{
+	opacity: 0.3;
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: 2s;
+}
+
+.adopt-me{
+	padding: 5px;
+	width: 250px;
+	position: relative;
+	bottom: 225px;
+	z-index: -1;
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.adopt-me:hover, .adopt-me:link, .adopt-me:visited{
+	cursor: pointer;
+	color: #941e80;
+}
+
+.adopt-me:hover{
+	z-index: 1;
+}
+
+.span-catname{
+	font-size: 18px;
+	color: #941e80;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bolder;
+}
+
+/* -- Mooal -- */
+
+#modal{
+	color: #941e80;
+	position: fixed;
+	width: 500px;
+	height: 300px;
+	bottom: 29%;
+	right: 30%;
+	background: white;
+	padding: 10px;
+	font-family: 'Roboto', serif;
+	display: none;
+}
+
+#modal>h3{
+	font-size: 25px;
+}
+
+#social-modal>a{
+	text-decoration: none;
+}
+
+hr{
+	background-color: #941e80;
+	width: 470px;
+	border: none;
+	height: 1px;
+}
+
+#close{
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.social-icon{
+	font-size: 80px;
+	border-radius: 50%;
+	background-color: white;
+	border: 3px solid #941e80;
+	display: inline-block;
+	padding: 13px;
+	margin: 10px 15px;
+	position: relative;
+	top: 60px;
+	left: 25px;
+}
+
+a.social-icon:visited, a.social-icon:link, a.social-icon:active{
+	color: #941e80;
+}
+
+footer{
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	text-align: right;
+	position: relative;
+	display: inline-block;
+	width: 1293px;
+	padding: 28px;
+	background-color:#941e80;
 }
