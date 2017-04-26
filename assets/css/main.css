@@ -481,3 +481,14 @@ hr{
 a.social-icon:visited, a.social-icon:link, a.social-icon:active{
 	color: #941e80;
 }
+
+footer{
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	text-align: right;
+	position: relative;
+	display: inline-block;
+	width: 1293px;
+	padding: 28px;
+	background-color:#941e80;
+}
