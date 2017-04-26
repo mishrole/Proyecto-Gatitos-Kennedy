@@ -43,7 +43,7 @@ ul.menu>li{
 	position: relative;
 	font-size: 74px;
 	color: white;
-	display:inline-block;
+	display: inline-block;
 	left: 34px;
 	top: 5px;
 }
@@ -426,4 +426,58 @@ img.cats:hover{
 	color: #941e80;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bolder;
+}
+
+/* -- Mooal -- */
+
+#modal{
+	color: #941e80;
+	position: fixed;
+	width: 500px;
+	height: 300px;
+	bottom: 29%;
+	right: 30%;
+	background: white;
+	padding: 10px;
+	font-family: 'Roboto', serif;
+	display: none;
+}
+
+#modal>h3{
+	font-size: 25px;
+}
+
+#social-modal>a{
+	text-decoration: none;
+}
+
+hr{
+	background-color: #941e80;
+	width: 470px;
+	border: none;
+	height: 1px;
+}
+
+#close{
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.social-icon{
+	font-size: 80px;
+	border-radius: 50%;
+	background-color: white;
+	border: 3px solid #941e80;
+	display: inline-block;
+	padding: 13px;
+	margin: 10px 15px;
+	position: relative;
+	top: 60px;
+	left: 25px;
+}
+
+a.social-icon:visited, a.social-icon:link, a.social-icon:active{
+	color: #941e80;
 }

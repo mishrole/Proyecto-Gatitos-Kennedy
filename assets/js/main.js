@@ -26,6 +26,18 @@ window.onload = function(){
 			event.preventDefault();
 	});
 
+	var modal = document.getElementById("modal");
+	
+	setTimeout(function(){
+
+		modal.style.display = "block"
+		
+	}, 3500);
+
+	modal.addEventListener("click", function(){
+		modal.style.display = "none"
+	})
+
 	var inputs = document.getElementsByClassName("form-control");
 	var nombre = document.getElementById("name");
 	var apellido = document.getElementById("lastname");

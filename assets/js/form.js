@@ -30,12 +30,16 @@ window.onload = function(){
 			opacity();
 			spanAlert.style.display = "block"
 			spanAlert.innerText = "Registro exitoso. \n Serás redirigido a la página de inicio.";
-			setTimeout(function(){location.href = "index.html"}, 3500);
+			setTimeout(function(){
+				location.href = "index.html"
+			}, 3500);
 		}else{
 			opacity();
 			spanAlert.style.display = "block"
 			spanAlert.innerText = "Lo sentimos, necesitas ser mayor de edad para acceder a nuestro registro de pre-adopción. \n Serás redirigido a la página de inicio.";
-			setTimeout(function(){location.href = "index.html"}, 5500);
+			setTimeout(function(){
+				location.href = "index.html"
+			}, 5500);
 		}
 	}
 
