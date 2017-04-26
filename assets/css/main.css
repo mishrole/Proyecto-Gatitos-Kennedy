@@ -178,7 +178,6 @@ form{
 	left: 25px;
 	height: 505px;
 	width: 543px;
-	padding-top: 24px;
 	background-color:white;
 	font-family: 'Quicksand', sans-serif;
 }
@@ -191,14 +190,14 @@ textarea{
 }
 
 #contactanos{
-	left: 21px;
+	left: 12px;
 	color: #941e80;
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 32px;
 	position: relative;
 	display: inline-block;
-	bottom: 7px;
+	bottom: 15px;
 }
 
 .sr-only{
@@ -207,7 +206,7 @@ textarea{
 
 .input-box{
 	position: relative;
-	margin: 21px;
+	margin: 14px;
 }
 
 .input-box span{
@@ -263,43 +262,49 @@ textarea{
 	bottom: -12px;
 }
 
+.signup{
+	bottom: -37px;
+}
+
 #boton:hover {
-    display: inline-block;
-    position: relative;
-    margin: 0px 27px;
-    height: 49px;
-    width: 200px;
-    border-radius: 60px;
-    background-color: #ffc400;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    color: black;
-    font-size: 20px;
-	left: 116px;
+	display: inline-block;
+	position: relative;
+	height: 49px;
+	width: 200px;
+	background-color: #ffc400;
+	font-family: Quicksand, sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	left: 202px;
+	top: 24px;
+	margin: 0px 27px;
+	border-radius: 60px;
 }
 
 #boton {
-    display: inline-block;
-    position: relative;
-    margin: 0px 27px;
-    height: 49px;
-    width: 200px;
-    border-radius: 60px;
-    background-color: #941e80;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-	left: 116px;
+	display: inline-block;
+	position: relative;
+	height: 49px;
+	width: 200px;
+	background-color: rgb(148, 30, 128);
+	font-family: Quicksand, sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	left: 202px;
+	top: 24px;
+	margin: 0px 27px;
+	border-radius: 60px;
 }
 
 .img-contact{
 	position: absolute;
 	display: inline-block;
-	width: 850px;
-	top: 12px;
+	top: -26px;
 	left: 782px;
-	height: 535px;
+	height: 568px;
+	width: 567px;
 }
 
 #contacto{
@@ -480,4 +485,15 @@ hr{
 
 a.social-icon:visited, a.social-icon:link, a.social-icon:active{
 	color: #941e80;
+}
+
+footer{
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	text-align: right;
+	position: relative;
+	display: inline-block;
+	width: 1293px;
+	padding: 28px;
+	background-color:#941e80;
 }
