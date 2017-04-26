@@ -8,15 +8,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Exo+2:900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lobster+Two:400i" rel="stylesheet">
-
-		<link rel="stylesheet" href="assets/img/style.css">
-	</head>
-	<body>
-		<header id=cabecera>
-
-			<div class="header-logo">
-				<a href="" class="icon-github logo"></a>
-			</div>
+	<link rel="stylesheet" href="assets/img/style.css">
+</head>
+<body>
+	<header id=cabecera>
+		<div class="header-logo">
+			<a href="" class="icon-github logo"></a>
+		</div>
 		<div class="titulo">
 			<a id="nombre" href="#">Meow!</a>
 		</div>
@@ -37,15 +35,14 @@
 		<img class="fondo" src="assets/img/gatitos2.jpg" alt="gatos meow! adoptame">
 		<img class="fondo" src="assets/img/gatitos3.jpg" alt="gatos meow! adoptame">
 	</div>
-	<script type="text/javascript" src="assets/js/main.js"></script>
 	<div class=mensaje><p>No puedes comprar <br>Amor<br>pero sí adoptarlo...</p></div>
 	<div class="botones">
-		<button class="boton" type="button" name="button">Adoptamé</button>
-		<button class="boton" type="button" name="button" onclick="location.href='https://www.paypal.com/es/cgi-bin/webscr?cmd=_flow&SESSION=WMxFWzpsrNGgHRo4AMMqe6Pgiqx1-vZ0GxHBAjE0O4RK1Y6HZ8wh9dSTcl4&dispatch=5885d80a13c0db1f8e263663d3faee8d94717bd303200c3af9aadd01a5f55080'">Dona</button>
+		<button  id="dona"class="boton" type="button" name="button">Adoptamé</button>
+		<button class="boton" type="button" name="button" onclick="location.href='https://www.paypal.com/es/cgi-bin/webscr?cmd=_flow&SESSION=84mO_N63wGmHXXwqbE6iLCQ85ko-cOkj0157Kb7gbwNRmSlUtNAcni63ULu&dispatch=5885d80a13c0db1f8e263663d3faee8d94717bd303200c3af9aadd01a5f55080'">Dona</button>
 	</div>
 	<div id="nosotros">
-    <div id="texto">
-      <h3>NOSOTROS</h3>
+		<div id="texto">
+			<h3>NOSOTROS</h3>
 			<div class="box uno">
 				<span class="icon-aid-kit"></span>
 				<h2>Atencion Médica</h2>
@@ -61,53 +58,56 @@
 				<h2>Ñam Ñam!</h2>
 				<p>Brindamos alimentación a los gatos con 20 kilos diarios de comida balanceada. </p>
 			</div>
-    </div>
+		</div>
 	</div>
 	<div id="galeria">
 <!-- mitchel is for you -->
 	</div>
 	<div id="contacto">
 		<section class="form">
-		      <div class="container">
-		        <form class="signup" novalidate>
-		          <h2 id="contactanos">
-		            Contáctanos
-		          </h2>
-		          <div class="name-container input-box">
-		            <label for="name" class="sr-only">Nombre</label>
-		            <input type="text" id="name" class="form-control"
-		            placeholder="Ingrese su nombre">
-		            <span id="nombre"style="display:none"></span>
-		          </div>
-		          <div class="lastname-container input-box">
-		            <label for="lastname" class="sr-only">Apellido</label>
-		            <input type="text" id="lastname" class="form-control"
-		            placeholder="Ingrese su apellido">
-		            <span id="apellido"style="display:none"></span>
-		          </div>
-		          <div class="email-container input-box">
-		            <label for="inputEmail" class="sr-only">
-		              Correo Electrónico
-		            </label>
-		            <input type="email" id="fake" class="form-control form-email" placeholder="Ingrese su correo electrónico">
-		            <span id="email" style="display:none"></span>
-		          </div>
-							<div class="commits-container input-box">
-								<label for="commits" class="sr-only">Mensaje</label><br>
-								<textarea id="commits" class="form-mesage form-control" name="name" rows="8" cols="80" placeholder="Dejanos tu mensaje"></textarea>
-								<span id="mensaje" style="display:none"></span>
-							</div>
-		          <div class="checkbox input-box">
-		            <label>
-		              <input id="checkout" type="checkbox" value="remember-me">
-		              <span>Deseo recibir información vía email</span>
-		            </label>
-		          </div>
-		          <button class="btn btn-lg btn-primary btn-block submit-btn"id="boton" type="submit">Registrar</button>
-		        </form>
-						</div>
-		    </section>
-				<img class=img-contact src="assets/img/contacto.jpg" alt="">
+			<div class="container">
+				<form class="signup">
+					<h2 id="contactanos">Contáctanos</h2>
+					<div class="name-container input-box">
+						<label for="name" class="sr-only">Nombre</label>
+						<input type="text" id="name" class="form-control" placeholder="Ingrese su nombre">
+						<span id="nombre"style="display:none"></span>
+					</div>
+					<div class="lastname-container input-box">
+						<label for="lastname" class="sr-only">Apellido</label>
+						<input type="text" id="lastname" class="form-control" placeholder="Ingrese su apellido">
+						<span id="apellido"style="display:none"></span>
+					</div>
+					<div class="email-container input-box">
+						<label for="inputEmail" class="sr-only">Correo Electrónico</label>
+						<input type="email" id="fake" class="form-control form-email" placeholder="Ingrese su correo electrónico">
+						<span id="email" style="display:none"></span>
+					</div>
+					<div class="commits-container input-box">
+						<label for="commits" class="sr-only">Mensaje</label><br>
+						<textarea id="commits" class="form-mesage form-control" name="name" rows="8" cols="80" placeholder="Dejanos tu mensaje"></textarea>
+						<span id="mensaje" style="display:none"></span>
+					</div>
+					<div class="checkbox input-box">
+						<label>
+							<input id="checkout" type="checkbox" value="remember-me">
+							<span>Deseo recibir información vía email</span>
+						</label>
+					</div>
+					<button class="btn btn-lg btn-primary btn-block submit-btn"id="boton" type="submit">Registrar</button>
+				</form>
+				<div id="modal" style="display: none" class="modal">
+					<span id="equis" class="kbutton ">&times;</span>
+					<h3>Gracias por Escribirnos.</h3>
+					<p>Nos comunicaremos en breve contigo..</p>
+				</div>
+		</section>
+		<img class=img-contact src="assets/img/contacto.jpg" alt="">
+		</div>
 	</div>
+	<footer>
+		© Copyright
+	</footer>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
